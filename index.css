@@ -1,0 +1,21 @@
+.moving {
+  /* border: 1px solid red; */
+  margin: 0 auto 0 auto;
+  text-align: right;
+  width: 99vw;
+  height: 97vh;
+}
+
+.moving img {
+  cursor: pointer;
+  position: relative;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+body {
+  border: 10px solid black;
+}
