@@ -1,4 +1,4 @@
-let colors = ["red", "orange", "pink"];
+let colors = ["green", "lime", "lightgreen"];
 let speed = 1.0;
 
 window.onload = function () {
