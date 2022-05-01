@@ -1,0 +1,64 @@
+.project {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transition-property: background-color width transform transition;
+  transition-duration: 0.3s;
+}
+
+.project:hover {
+  cursor: pointer;
+}
+
+.top-left {
+  top: 10%;
+  left: 10%;
+  background-color: red;
+  opacity: 10%;
+}
+
+.top-left:hover {
+  background-color: red;
+  opacity: 90%;
+  transform: scale(1.3, 1.3);
+}
+
+.top-right {
+  top: 10%;
+  right: 10%;
+  background-color: green;
+  opacity: 10%;
+}
+
+.top-right:hover {
+  background-color: green;
+  opacity: 90%;
+  transform: scale(1.3, 1.3);
+}
+
+.bot-left {
+  bottom: 10%;
+  left: 10%;
+  background-color: blue;
+  opacity: 10%;
+}
+
+.bot-left:hover {
+  background-color: blue;
+  opacity: 90%;
+  transform: scale(1.3, 1.3);
+}
+
+.bot-right {
+  bottom: 10%;
+  right: 10%;
+  background-color: yellow;
+  opacity: 10%;
+}
+
+.bot-right:hover {
+  background-color: yellow;
+  opacity: 90%;
+  transform: scale(1.3, 1.3);
+}

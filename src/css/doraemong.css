@@ -1,0 +1,66 @@
+.도라에몽 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 400px;
+  background: url(../../images/doraemon.png) no-repeat 50% 50%;
+  /* no-repeat 50% 50% 이게 무슨의미노? */
+  background-size: contain;
+  z-index: -5;
+  /* contain이 뭐노? */
+  transform: translate(-50%, -50%);
+}
+
+.눈들 {
+  display: flex;
+  position: absolute;
+  top: 13.5px;
+  left: 80px;
+}
+
+.눈 {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border: 2px solid #000;
+  border-radius: 50%;
+  background-color: #fff;
+  transform: scaleX(0.9);
+}
+
+.눈-1 {
+  left: 3.5px;
+}
+.눈-2 {
+  left: -3.5px;
+}
+
+.눈동자 {
+  position: absolute;
+  left: 15px;
+  width: 30px;
+  height: inherit;
+}
+
+.눈동자:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: inherit;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.눈동자:after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #fff;
+}
