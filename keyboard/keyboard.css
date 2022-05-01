@@ -36,6 +36,17 @@ li {
   border-radius: 0%;
 }
 
+img {
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  transform: scale(0.5);
+}
+
+img:hover {
+  cursor: pointer;
+}
+
 #k9 {
   width: 5em;
 }
